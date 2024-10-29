@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
 	cors({
-	  origin: ['https://hospital-management-puce.vercel.app' , 'https://hospital-management-admin.vercel.app'],
+	  origin: ['https://hospital-management-frontend-nu.vercel.app' , 'https://hospital-management-admin.vercel.app'],
 	  method: ["GET", "POST", "DELETE", "PUT"],
 	  credentials: true,
 	})
